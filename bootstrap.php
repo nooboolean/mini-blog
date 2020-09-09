@@ -7,3 +7,5 @@ $loader->registerDirectory(dirname(__FILE__) . '/core');
 $loader->registerDirectory(dirname(__FILE__) . '/core/Exception');
 $loader->registerDirectory(dirname(__FILE__) . '/models');
 $loader->register();
+
+Config::set_config_directory(__DIR__ . '/config');
